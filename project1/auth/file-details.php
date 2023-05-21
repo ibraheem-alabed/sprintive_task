@@ -2,7 +2,7 @@
 
 <?php
 $folderName = $_GET['folder'];
-$folderPath = '../file/' . $folderName . '/';
+$folderPath = './file/' . $folderName . '/';
 
 // Get the list of files in the folder
 if (is_dir($folderPath)) {
